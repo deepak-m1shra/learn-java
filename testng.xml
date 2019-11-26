@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.x.vuinner.selenium.SecondTest"/>
+      <class name="com.x.vuinner.selenium.BaseTest"/>
+      <class name="com.x.vuinner.selenium.FirstTest"/>
+      <class name="com.x.vuinner.Programs"/>
+      <class name="com.x.vuinner.ScratchPad"/>
+      <class name="com.x.vuinner.SeleniumTests"/>
+      <class name="com.x.vuinner.selenium.SeleniumPracticce"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
